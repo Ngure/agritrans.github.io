@@ -1,10 +1,10 @@
 <?php
 
 error_reporting(0);
-$con = mysqli_connect("localhost","root","@chrissngure254%%","agritrans");
+$con = mysqli_connect("host","host_name","password","db_name");
 if(count($_POST)>0) {
 $translation = $_POST[translation];
-$result = mysqli_query($con,"SELECT * FROM translation ");
+$result = mysqli_query($con,"SELECT * FROM translation");
 }
 
 ?>
